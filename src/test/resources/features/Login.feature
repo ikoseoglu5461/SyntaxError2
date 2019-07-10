@@ -4,7 +4,7 @@ Feature: Locations in OrangeHRM
     Given I logged in into OrangeHRM
     And I am on Locations Page
     
-  @temp
+  
   Scenario:  Add new locations by specifying mandatory fields only
     When I provide locations name, country, city and zip code
     Then I location added successfully
